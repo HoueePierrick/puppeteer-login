@@ -1,0 +1,32 @@
+{
+  "name": "tdd-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/request-promise": "^4.1.48",
+    "babel-jest": "^29.3.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "jest": "^29.3.1",
+    "puppeteer": "^19.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@jest/globals": "^29.3.1",
+    "@types/jest": "^29.2.3"
+  }
+}
